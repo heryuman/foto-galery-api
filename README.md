@@ -31,15 +31,15 @@ eso es porque trabajamos con funciones asincronas
 
 # EndPoints
 
-## metodo Post
-localhos:4000/api/photos
+   ## metodo Post
+   localhos:4000/api/photos
 
-{
+   {
     image:file,
     title:"",
     description:""
 
-}
+   }
 
-##metodo get,put,delete
-localhost:4000/api/photos/id
+   ## metodo get,put,delete
+   localhost:4000/api/photos/id
