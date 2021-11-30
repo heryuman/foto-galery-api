@@ -1,5 +1,3 @@
-# foto-galery-api
-
 1. creamos un proyecto de node con npm init -y, lo que hace es crear un archivo tipo package json
 2. instalamos typescript con npm  i typescript -D, de esta forma indicamos que se instala unicamente para desarrollo
 3. ejecutamos localmente el typescript con npx, npx tsc --init
@@ -21,25 +19,10 @@
 
 
 
-#PACKAGES USADOS 
+PACKAGES USADOS 
 npm i rimraf es para usar el comando rm para eliminar de linux en cualquier plataforma
 
 npm i multer sirve para indicarle al server que subiremos imagenes
 
 npm i fs-extra, este mudulo (file sistem "fs"), nos permite manipular archivos en funciones que trabajan con promesas mientras que "fs" por su cuenta no puede lograr hacerlo
 eso es porque trabajamos con funciones asincronas
-
-#EndPoints
-
-##metodo Post
-localhos:4000/api/photos
-
-{
-    image:file,
-    title:"",
-    description:""
-
-}
-
-##metodo get,put,delete
-localhost:4000/api/photos/id
