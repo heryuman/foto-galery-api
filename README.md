@@ -21,7 +21,7 @@
 
 
 
-#PACKAGES USADOS 
+# PACKAGES USADOS 
 npm i rimraf es para usar el comando rm para eliminar de linux en cualquier plataforma
 
 npm i multer sirve para indicarle al server que subiremos imagenes
@@ -29,9 +29,9 @@ npm i multer sirve para indicarle al server que subiremos imagenes
 npm i fs-extra, este mudulo (file sistem "fs"), nos permite manipular archivos en funciones que trabajan con promesas mientras que "fs" por su cuenta no puede lograr hacerlo
 eso es porque trabajamos con funciones asincronas
 
-#EndPoints
+# EndPoints
 
-##metodo Post
+## metodo Post
 localhos:4000/api/photos
 
 {
